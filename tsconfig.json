@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "removeComments": true,
+        "sourceMap": true,
+        "incremental": true,
+        "outDir": "src/dist",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "compileOnSave": true,
+}
