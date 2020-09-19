@@ -1,0 +1,11 @@
+{
+    "botToken": "12441lkslkadjf",
+    "db": {
+        "type": "mysql",
+        "host": "localhost",
+        "name": "root",
+        "password": "root",
+        "dbname": "qblog",
+        "port": 3306
+    }
+}
