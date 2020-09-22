@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \"cross-env NODE_PATH=dist/ node dist/entry.js\"",
+    "db:seed": "cross-env NODE_PATH=dist/ node dist/application/scripts/run.seed.js",
+    "db:sync": "cross-env NODE_PATH=dist/ node dist/application/scripts/run.db.sync.js",
     "build": "tsc"
   },
   "repository": {
