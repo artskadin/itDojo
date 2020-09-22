@@ -39,6 +39,11 @@ export const ConfigSchema = {
       doc: "Entities Path",
       format: Array,
       default: ["**/**.entity.js"]
+    },
+    migrations: {
+      doc: "Migration Path",
+      format: Array,
+      default: ["migration/*.js"],
     }
   }
 };

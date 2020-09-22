@@ -14,7 +14,8 @@ export class TypeormDBService extends DbService {
       database: this.configService.config.get("db.dbname"),
       username: this.configService.config.get("db.name"),
       password: this.configService.config.get("db.password"),
-      entities: this.configService.config.get("db.entities")
+      entities: this.configService.config.get("db.entities"),
+      migrations: this.configService.config.get("db.entities")
     });
     return this.connection;
   }
